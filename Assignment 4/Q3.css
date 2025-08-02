@@ -1,0 +1,24 @@
+#heading {
+  text-decoration: underline;
+  color: #2c3d50;
+}
+
+#author {
+  font-style: italic;
+  color: #979797;
+}
+
+.button {
+  background-color: #3598dc;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: ease-in;
+  transition-duration: 7.5ms;
+}
+
+.button:hover {
+  background-color: #5aace2;
+  transform: scale(1.05);
+}
