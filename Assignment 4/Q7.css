@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2d3e51;
+  height: 50px;
+  color: white;
+}
+
+.nav-element {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-element:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    height: 40px;
+  }
+
+  .nav-element {
+    font-size: 15px;
+  }
+}
