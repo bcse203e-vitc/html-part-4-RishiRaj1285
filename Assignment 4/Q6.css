@@ -8,6 +8,7 @@
   align-items: center;
   position: static;
 }
+
 .fixed{
   height: 10vh;
   width: 20vh;
@@ -20,6 +21,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.absolute{
+  height: 10vh;
+  width: 20vh;
+  background-color: #2fcc71;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  top:10px;
+}
+
 .relative{
   height: 10vh;
   width: 20vh;
@@ -41,15 +56,4 @@
     bottom: 150px;
 }
 
-.abs{
-  height: 10vh;
-  width: 20vh;
-  background-color: #2fcc71;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 15px;
-  top:10px;
-}
+
