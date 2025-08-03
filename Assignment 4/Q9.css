@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  background-color: #f1f2f5;
+}
+
+button {
+  padding: 30px 60px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+
+.save{
+  background-color: #28af60;
+}
+
+.cancel{
+  background-color: #c0392c;
+}
+
+.submit{
+  background-color: #2a80b9;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+button:active {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
