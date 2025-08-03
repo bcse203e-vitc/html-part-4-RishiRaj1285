@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2d3e51;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 80px; 
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ecf0f1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  padding: 0.25rem;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+p{
+  line-height: 1.5;
+}
+
+.multi-column {
+  column-count: 2;
+  column-gap: 20px;
+}
